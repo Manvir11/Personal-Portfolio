@@ -1,0 +1,49 @@
+ 
+export default function Education() {
+    return (
+      <>
+        {/* Divider */}
+        <div class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
+
+        <div class="bg-gray-800 min-h-screen text-white">
+          {/* Rest of your website content */}
+
+          {/* Education Section */}
+          <div class="mx-auto max-w-screen-xl flex flex-col items-center h-5/6 py-12">
+            {/* Section Heading */}
+            <h2 class="bg-gradient-to-r from-orange-400 via-pink-500 to-purple-600
+ bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl mb-8">
+              Education
+            </h2>
+
+            {/* Content Container */}
+            <div class="mx-auto max-w-3xl text-center">
+
+              {/* Content: List or description of education history */}
+              <p class="mb-6">
+                {/* Insert your education history or descriptions here */}
+                B.S. in Computer Science from XYZ University
+              </p>
+              <p class="mb-6">
+                {/* More entries as needed */}
+                M.S. in Software Engineering from ABC Institute
+              </p>
+
+              {/* Optional Additional Content or Links */}
+              <div class="mt-8 flex flex-wrap justify-center gap-4">
+                {/* Include any calls to action or links as needed */}
+                <a class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto" href="/certifications">
+                  Certifications
+                </a>
+                {/* More buttons or links as needed */}
+              </div>
+            </div>
+          </div>
+
+          {/* Further sections can be added below following the same pattern */}
+        </div>
+      </>
+
+    )
+  }
+  
